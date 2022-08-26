@@ -1,6 +1,6 @@
 ---
 title: "Závěrečný test pro spanilé čtenářky a\_pozorné čtenáře"
-contentType: prose
+contentType: drama
 ---
 
 <section>
@@ -85,7 +85,7 @@ a) svůj řídící orgán
 
 b) svůj říjící orgán
 
-> **c) _nemáte-li ani a, ani b, pak alespoň svůj vlastní orgán_**
+> c) _nemáte-li ani a, ani b, pak alespoň svůj vlastní orgán_
 
 V případě úspěšného vyhodnocení orgánem můžete získat cenu, která změní váš život.
 

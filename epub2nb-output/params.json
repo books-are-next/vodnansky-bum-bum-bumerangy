@@ -1,11 +1,15 @@
 {
   "params": {
     "metadata": {
+      "languageCode": "cs",
       "title": "Bum... bum... bumerangy aneb Politická manéž",
       "identifier": "urn:uuid:296c0919-9963-415a-a386-6c26c077b931",
       "author": "Jan Vodňanský",
       "publisher": "Městská knihovna v Praze",
-      "modified": "2022-03-17T00:00:00.000Z"
+      "modified": "2022-03-17T00:00:00.000Z",
+      "edition": "drama",
+      "publisherShort": "mkp",
+      "contentType": "drama"
     },
     "elements": {
       "title": "MLP.uroven1.*\nMLP.uroven2.kapitola\nMLP.uroven2.basne\nMLP.uroven2.kapitola.dopis\nMLP.uroven2.kapitola.upraven\ne.booknadpis2\ne.booknadpis2bezodstrnkovn\ne.booknadpis2probasne\ne.bookobsah\nheading.id.2\nmlpuroven1.*\nmlpuroven2.*\nMLP.UROVEN2.BASNE.II\nMLP.UROVEN2.KAPITOLA\nMLP.UROVEN2.PARAL\nMLP.uroven1.PARAL",
@@ -19,12 +23,12 @@
       "br": "",
       "brBefore": ".+12.0\n.+12.12\n.+12.0.\n.+12.12.\ne.bookversebezpredsazeni.*pred.*\ne.bookodsazeniodstavce.*pred.*",
       "brAfter": ".+0.12\n.+12.12\n.+0.12.\n.+12.12.\ne.bookversebezpredsazeni.*za.*\ne.bookodsazeniodstavce.*za.*",
-      "blockquote": "MLP.DENIK\nMLP.dopis.*\nMLP.citat\nMLP.prima.rec\ne.bookdopis\ne.bookprozatextkurzivadoprava",
-      "centered": ".*uprostred.*",
+      "blockquote": "MLP_prima_rec",
       "figure": "MLP.obrazky.*\nmlpobrazky",
-      "em": ".*kurziva.*\n.*-I-.*\n.*-I\n.*_I_.*\n.*_I\nMLP.venovani\nMLP.verse.*\nMLP.titulka.prekladatel\nMLP.pozn.pod.carou\nMLP.scenicke.poznamky\ne.booktextvenovani.*\nmlpvenovani.*\nmlpversei",
-      "strong": "MLP.tiraz.autor.a.nazev\nMLP.tiraz.podnazev\nMLP.licence.paragraf\n.*tucne.*\n.*tucna.*\n.*-B-\n.*-B\n.*_B_\n.*_B\nMLP.prima.rec\nMLP.prima.rec.bez.mezery\ne.booktirazautoradilo\nmlptextb\nmlptirazautoranazev",
+      "centered": ".*uprostred.*",
       "verse": "MLP.verse.*",
+      "em": "MLP_znak_kurziva_11b",
+      "strong": "MLP_tiraz_autor_a_nazev\nMLP_licence_paragraf\nMLP_znak_tucne_11b\nCharOverride-3",
       "remove": "",
       "ignore": ""
     },
@@ -32,50 +36,55 @@
       {
         "isSection": true,
         "id": "section-1",
+        "listType": "plain",
         "children": [
           {
             "filename": "bum_bum_bumerangy_001.md",
             "xhtml": "bum_bum_bumerangy_001.xhtml",
             "id": 0,
-            "role": "chapter",
+            "role": "cover",
             "listType": "plain",
-            "inToc": true,
+            "inToc": false,
             "hungry": false,
             "devoured": false,
-            "hiddenTitle": false
+            "hiddenTitle": false,
+            "children": []
           },
           {
             "filename": "bum_bum_bumerangy_002.md",
             "xhtml": "bum_bum_bumerangy_002.xhtml",
             "id": 1,
-            "role": "chapter",
+            "role": "promo",
             "listType": "plain",
-            "inToc": true,
+            "inToc": false,
             "hungry": false,
             "devoured": false,
-            "hiddenTitle": false
+            "hiddenTitle": false,
+            "children": []
           },
           {
             "filename": "bum_bum_bumerangy_003.md",
             "xhtml": "bum_bum_bumerangy_003.xhtml",
             "id": 2,
-            "role": "chapter",
+            "role": "about",
             "listType": "plain",
-            "inToc": true,
+            "inToc": false,
             "hungry": false,
             "devoured": false,
-            "hiddenTitle": false
+            "hiddenTitle": false,
+            "children": []
           },
           {
             "filename": "bum_bum_bumerangy_004.md",
             "xhtml": "bum_bum_bumerangy_004.xhtml",
             "id": 3,
-            "role": "chapter",
+            "role": "about",
             "listType": "plain",
-            "inToc": true,
+            "inToc": false,
             "hungry": false,
             "devoured": false,
-            "hiddenTitle": false
+            "hiddenTitle": false,
+            "children": []
           },
           {
             "filename": "bum_bum_bumerangy_005.md",
@@ -84,9 +93,11 @@
             "role": "chapter",
             "listType": "plain",
             "inToc": true,
-            "hungry": false,
+            "hungry": true,
             "devoured": false,
-            "hiddenTitle": false
+            "hiddenTitle": true,
+            "children": [],
+            "title": "Bum... bum... bumerangy aneb Politická manéž"
           },
           {
             "filename": "bum_bum_bumerangy_006.md",
@@ -96,8 +107,9 @@
             "listType": "plain",
             "inToc": true,
             "hungry": false,
-            "devoured": false,
-            "hiddenTitle": false
+            "devoured": true,
+            "hiddenTitle": false,
+            "children": []
           },
           {
             "filename": "bum_bum_bumerangy_007.md",
@@ -107,8 +119,9 @@
             "listType": "plain",
             "inToc": true,
             "hungry": false,
-            "devoured": false,
-            "hiddenTitle": false
+            "devoured": true,
+            "hiddenTitle": false,
+            "children": []
           },
           {
             "filename": "bum_bum_bumerangy_008.md",
@@ -118,8 +131,9 @@
             "listType": "plain",
             "inToc": true,
             "hungry": false,
-            "devoured": false,
-            "hiddenTitle": false
+            "devoured": true,
+            "hiddenTitle": false,
+            "children": []
           },
           {
             "filename": "bum_bum_bumerangy_009.md",
@@ -129,8 +143,9 @@
             "listType": "plain",
             "inToc": true,
             "hungry": false,
-            "devoured": false,
-            "hiddenTitle": false
+            "devoured": true,
+            "hiddenTitle": false,
+            "children": []
           },
           {
             "filename": "bum_bum_bumerangy_010.md",
@@ -140,8 +155,9 @@
             "listType": "plain",
             "inToc": true,
             "hungry": false,
-            "devoured": false,
-            "hiddenTitle": false
+            "devoured": true,
+            "hiddenTitle": false,
+            "children": []
           },
           {
             "filename": "bum_bum_bumerangy_011.md",
@@ -151,8 +167,9 @@
             "listType": "plain",
             "inToc": true,
             "hungry": false,
-            "devoured": false,
-            "hiddenTitle": false
+            "devoured": true,
+            "hiddenTitle": false,
+            "children": []
           },
           {
             "filename": "bum_bum_bumerangy_012.md",
@@ -162,8 +179,9 @@
             "listType": "plain",
             "inToc": true,
             "hungry": false,
-            "devoured": false,
-            "hiddenTitle": false
+            "devoured": true,
+            "hiddenTitle": false,
+            "children": []
           },
           {
             "filename": "bum_bum_bumerangy_013.md",
@@ -173,8 +191,9 @@
             "listType": "plain",
             "inToc": true,
             "hungry": false,
-            "devoured": false,
-            "hiddenTitle": false
+            "devoured": true,
+            "hiddenTitle": false,
+            "children": []
           },
           {
             "filename": "bum_bum_bumerangy_014.md",
@@ -184,8 +203,9 @@
             "listType": "plain",
             "inToc": true,
             "hungry": false,
-            "devoured": false,
-            "hiddenTitle": false
+            "devoured": true,
+            "hiddenTitle": false,
+            "children": []
           },
           {
             "filename": "bum_bum_bumerangy_015.md",
@@ -195,8 +215,9 @@
             "listType": "plain",
             "inToc": true,
             "hungry": false,
-            "devoured": false,
-            "hiddenTitle": false
+            "devoured": true,
+            "hiddenTitle": false,
+            "children": []
           },
           {
             "filename": "bum_bum_bumerangy_016.md",
@@ -206,8 +227,9 @@
             "listType": "plain",
             "inToc": true,
             "hungry": false,
-            "devoured": false,
-            "hiddenTitle": false
+            "devoured": true,
+            "hiddenTitle": false,
+            "children": []
           },
           {
             "filename": "bum_bum_bumerangy_017.md",
@@ -217,8 +239,9 @@
             "listType": "plain",
             "inToc": true,
             "hungry": false,
-            "devoured": false,
-            "hiddenTitle": false
+            "devoured": true,
+            "hiddenTitle": false,
+            "children": []
           },
           {
             "filename": "bum_bum_bumerangy_018.md",
@@ -228,8 +251,9 @@
             "listType": "plain",
             "inToc": true,
             "hungry": false,
-            "devoured": false,
-            "hiddenTitle": false
+            "devoured": true,
+            "hiddenTitle": false,
+            "children": []
           },
           {
             "filename": "bum_bum_bumerangy_019.md",
@@ -239,8 +263,9 @@
             "listType": "plain",
             "inToc": true,
             "hungry": false,
-            "devoured": false,
-            "hiddenTitle": false
+            "devoured": true,
+            "hiddenTitle": false,
+            "children": []
           },
           {
             "filename": "bum_bum_bumerangy_020.md",
@@ -250,8 +275,9 @@
             "listType": "plain",
             "inToc": true,
             "hungry": false,
-            "devoured": false,
-            "hiddenTitle": false
+            "devoured": true,
+            "hiddenTitle": false,
+            "children": []
           },
           {
             "filename": "bum_bum_bumerangy_021.md",
@@ -261,8 +287,9 @@
             "listType": "plain",
             "inToc": true,
             "hungry": false,
-            "devoured": false,
-            "hiddenTitle": false
+            "devoured": true,
+            "hiddenTitle": false,
+            "children": []
           },
           {
             "filename": "bum_bum_bumerangy_022.md",
@@ -272,8 +299,9 @@
             "listType": "plain",
             "inToc": true,
             "hungry": false,
-            "devoured": false,
-            "hiddenTitle": false
+            "devoured": true,
+            "hiddenTitle": false,
+            "children": []
           },
           {
             "filename": "bum_bum_bumerangy_023.md",
@@ -283,8 +311,9 @@
             "listType": "plain",
             "inToc": true,
             "hungry": false,
-            "devoured": false,
-            "hiddenTitle": false
+            "devoured": true,
+            "hiddenTitle": false,
+            "children": []
           },
           {
             "filename": "bum_bum_bumerangy_024.md",
@@ -294,8 +323,9 @@
             "listType": "plain",
             "inToc": true,
             "hungry": false,
-            "devoured": false,
-            "hiddenTitle": false
+            "devoured": true,
+            "hiddenTitle": false,
+            "children": []
           },
           {
             "filename": "bum_bum_bumerangy_025.md",
@@ -305,8 +335,9 @@
             "listType": "plain",
             "inToc": true,
             "hungry": false,
-            "devoured": false,
-            "hiddenTitle": false
+            "devoured": true,
+            "hiddenTitle": false,
+            "children": []
           },
           {
             "filename": "bum_bum_bumerangy_026.md",
@@ -316,8 +347,9 @@
             "listType": "plain",
             "inToc": true,
             "hungry": false,
-            "devoured": false,
-            "hiddenTitle": false
+            "devoured": true,
+            "hiddenTitle": false,
+            "children": []
           },
           {
             "filename": "bum_bum_bumerangy_027.md",
@@ -327,8 +359,9 @@
             "listType": "plain",
             "inToc": true,
             "hungry": false,
-            "devoured": false,
-            "hiddenTitle": false
+            "devoured": true,
+            "hiddenTitle": false,
+            "children": []
           },
           {
             "filename": "bum_bum_bumerangy_028.md",
@@ -338,8 +371,9 @@
             "listType": "plain",
             "inToc": true,
             "hungry": false,
-            "devoured": false,
-            "hiddenTitle": false
+            "devoured": true,
+            "hiddenTitle": false,
+            "children": []
           },
           {
             "filename": "bum_bum_bumerangy_029.md",
@@ -349,8 +383,9 @@
             "listType": "plain",
             "inToc": true,
             "hungry": false,
-            "devoured": false,
-            "hiddenTitle": false
+            "devoured": true,
+            "hiddenTitle": false,
+            "children": []
           },
           {
             "filename": "bum_bum_bumerangy_030.md",
@@ -360,8 +395,9 @@
             "listType": "plain",
             "inToc": true,
             "hungry": false,
-            "devoured": false,
-            "hiddenTitle": false
+            "devoured": true,
+            "hiddenTitle": false,
+            "children": []
           },
           {
             "filename": "bum_bum_bumerangy_031.md",
@@ -371,8 +407,9 @@
             "listType": "plain",
             "inToc": true,
             "hungry": false,
-            "devoured": false,
-            "hiddenTitle": false
+            "devoured": true,
+            "hiddenTitle": false,
+            "children": []
           },
           {
             "filename": "bum_bum_bumerangy_032.md",
@@ -382,8 +419,9 @@
             "listType": "plain",
             "inToc": true,
             "hungry": false,
-            "devoured": false,
-            "hiddenTitle": false
+            "devoured": true,
+            "hiddenTitle": false,
+            "children": []
           },
           {
             "filename": "bum_bum_bumerangy_033.md",
@@ -393,8 +431,9 @@
             "listType": "plain",
             "inToc": true,
             "hungry": false,
-            "devoured": false,
-            "hiddenTitle": false
+            "devoured": true,
+            "hiddenTitle": false,
+            "children": []
           },
           {
             "filename": "bum_bum_bumerangy_034.md",
@@ -404,8 +443,9 @@
             "listType": "plain",
             "inToc": true,
             "hungry": false,
-            "devoured": false,
-            "hiddenTitle": false
+            "devoured": true,
+            "hiddenTitle": false,
+            "children": []
           },
           {
             "filename": "bum_bum_bumerangy_035.md",
@@ -415,8 +455,9 @@
             "listType": "plain",
             "inToc": true,
             "hungry": false,
-            "devoured": false,
-            "hiddenTitle": false
+            "devoured": true,
+            "hiddenTitle": false,
+            "children": []
           },
           {
             "filename": "bum_bum_bumerangy_036.md",
@@ -426,8 +467,9 @@
             "listType": "plain",
             "inToc": true,
             "hungry": false,
-            "devoured": false,
-            "hiddenTitle": false
+            "devoured": true,
+            "hiddenTitle": false,
+            "children": []
           },
           {
             "filename": "bum_bum_bumerangy_037.md",
@@ -437,8 +479,9 @@
             "listType": "plain",
             "inToc": true,
             "hungry": false,
-            "devoured": false,
-            "hiddenTitle": false
+            "devoured": true,
+            "hiddenTitle": false,
+            "children": []
           },
           {
             "filename": "bum_bum_bumerangy_038.md",
@@ -448,8 +491,9 @@
             "listType": "plain",
             "inToc": true,
             "hungry": false,
-            "devoured": false,
-            "hiddenTitle": false
+            "devoured": true,
+            "hiddenTitle": false,
+            "children": []
           },
           {
             "filename": "bum_bum_bumerangy_039.md",
@@ -459,8 +503,9 @@
             "listType": "plain",
             "inToc": true,
             "hungry": false,
-            "devoured": false,
-            "hiddenTitle": false
+            "devoured": true,
+            "hiddenTitle": false,
+            "children": []
           },
           {
             "filename": "bum_bum_bumerangy_040.md",
@@ -470,8 +515,9 @@
             "listType": "plain",
             "inToc": true,
             "hungry": false,
-            "devoured": false,
-            "hiddenTitle": false
+            "devoured": true,
+            "hiddenTitle": false,
+            "children": []
           },
           {
             "filename": "bum_bum_bumerangy_041.md",
@@ -481,8 +527,9 @@
             "listType": "plain",
             "inToc": true,
             "hungry": false,
-            "devoured": false,
-            "hiddenTitle": false
+            "devoured": true,
+            "hiddenTitle": false,
+            "children": []
           },
           {
             "filename": "bum_bum_bumerangy_042.md",
@@ -492,8 +539,9 @@
             "listType": "plain",
             "inToc": true,
             "hungry": false,
-            "devoured": false,
-            "hiddenTitle": false
+            "devoured": true,
+            "hiddenTitle": false,
+            "children": []
           },
           {
             "filename": "bum_bum_bumerangy_043.md",
@@ -503,8 +551,9 @@
             "listType": "plain",
             "inToc": true,
             "hungry": false,
-            "devoured": false,
-            "hiddenTitle": false
+            "devoured": true,
+            "hiddenTitle": false,
+            "children": []
           },
           {
             "filename": "bum_bum_bumerangy_044.md",
@@ -514,8 +563,9 @@
             "listType": "plain",
             "inToc": true,
             "hungry": false,
-            "devoured": false,
-            "hiddenTitle": false
+            "devoured": true,
+            "hiddenTitle": false,
+            "children": []
           },
           {
             "filename": "bum_bum_bumerangy_045.md",
@@ -525,8 +575,9 @@
             "listType": "plain",
             "inToc": true,
             "hungry": false,
-            "devoured": false,
-            "hiddenTitle": false
+            "devoured": true,
+            "hiddenTitle": false,
+            "children": []
           },
           {
             "filename": "bum_bum_bumerangy_046.md",
@@ -536,8 +587,9 @@
             "listType": "plain",
             "inToc": true,
             "hungry": false,
-            "devoured": false,
-            "hiddenTitle": false
+            "devoured": true,
+            "hiddenTitle": false,
+            "children": []
           },
           {
             "filename": "bum_bum_bumerangy_047.md",
@@ -547,8 +599,9 @@
             "listType": "plain",
             "inToc": true,
             "hungry": false,
-            "devoured": false,
-            "hiddenTitle": false
+            "devoured": true,
+            "hiddenTitle": false,
+            "children": []
           },
           {
             "filename": "bum_bum_bumerangy_048.md",
@@ -558,8 +611,9 @@
             "listType": "plain",
             "inToc": true,
             "hungry": false,
-            "devoured": false,
-            "hiddenTitle": false
+            "devoured": true,
+            "hiddenTitle": false,
+            "children": []
           },
           {
             "filename": "bum_bum_bumerangy_049.md",
@@ -569,8 +623,9 @@
             "listType": "plain",
             "inToc": true,
             "hungry": false,
-            "devoured": false,
-            "hiddenTitle": false
+            "devoured": true,
+            "hiddenTitle": false,
+            "children": []
           },
           {
             "filename": "bum_bum_bumerangy_050.md",
@@ -579,22 +634,26 @@
             "role": "chapter",
             "listType": "plain",
             "inToc": true,
-            "hungry": false,
+            "hungry": true,
             "devoured": false,
-            "hiddenTitle": false
+            "hiddenTitle": false,
+            "children": [],
+            "title": "Závěrečný test pro spanilé čtenářky a pozorné čtenáře"
           },
           {
             "filename": "bum_bum_bumerangy_051.md",
             "xhtml": "bum_bum_bumerangy_051.xhtml",
             "id": 50,
-            "role": "chapter",
+            "role": "about",
             "listType": "plain",
-            "inToc": true,
-            "hungry": false,
+            "inToc": false,
+            "hungry": true,
             "devoured": false,
-            "hiddenTitle": false
+            "hiddenTitle": false,
+            "children": []
           }
-        ]
+        ],
+        "devoured": false
       }
     ]
   },
@@ -985,6 +1044,6 @@
       "user": "books-are-next",
       "repo": "vodnansky-bum-bum-bumerangy"
     },
-    "generatedAt": 1661317105160
+    "generatedAt": 1661526100797
   }
 }

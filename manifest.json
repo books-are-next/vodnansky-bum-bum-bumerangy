@@ -1,0 +1,109 @@
+{
+  "preview": {
+    "isPreview": false
+  },
+  "title": "Bum... bum... bumerangy aneb Politická manéž",
+  "author": "Jan Vodňanský",
+  "publisher": "Městská knihovna v Praze",
+  "edition": "drama",
+  "languageCode": "cs",
+  "root": "main",
+  "identifier": "vodnansky-bum-bum-bumerangy-aneb-politicka-manez-c4dbb9b",
+  "revision": "c4dbb9b",
+  "readingOrder": [
+    "promo.html",
+    "bum_bum_bumerangy_005.html",
+    "bum_bum_bumerangy_050.html",
+    "about.html"
+  ],
+  "generatedAt": {
+    "date": "Fri Aug 26 2022 15:03:06 GMT+0000 (Coordinated Universal Time)",
+    "unix": 1661526186849
+  },
+  "documents": [
+    {
+      "title": "Městská knihovna v Praze",
+      "file": "promo.html",
+      "words": 0,
+      "chars": 0,
+      "ideas": 0,
+      "role": "chapter",
+      "order": 0,
+      "prev": null,
+      "next": "bum_bum_bumerangy_005.html",
+      "toc": []
+    },
+    {
+      "title": "Bum... bum... bumerangy aneb Politická manéž",
+      "file": "bum_bum_bumerangy_005.html",
+      "words": 4836,
+      "chars": 30206,
+      "ideas": 279,
+      "role": "chapter",
+      "order": 1,
+      "prev": "promo.html",
+      "next": "bum_bum_bumerangy_050.html",
+      "toc": [
+        {
+          "index": 0,
+          "level": 1,
+          "name": null,
+          "id": null,
+          "children": []
+        }
+      ]
+    },
+    {
+      "title": "Závěrečný test pro spanilé čtenářky a pozorné čtenáře",
+      "file": "bum_bum_bumerangy_050.html",
+      "words": 90,
+      "chars": 567,
+      "ideas": 34,
+      "role": "chapter",
+      "order": 2,
+      "prev": "bum_bum_bumerangy_005.html",
+      "next": "about.html",
+      "toc": [
+        {
+          "index": 0,
+          "level": 1,
+          "name": "Závěrečný test pro spanilé čtenářky a pozorné čtenáře",
+          "id": null,
+          "children": []
+        }
+      ]
+    },
+    {
+      "title": "Tiráž",
+      "file": "about.html",
+      "words": 143,
+      "chars": 927,
+      "ideas": 16,
+      "role": "about",
+      "order": null,
+      "prev": "bum_bum_bumerangy_050.html",
+      "next": null,
+      "toc": [
+        {
+          "index": 0,
+          "level": 1,
+          "name": "Tiráž",
+          "id": null,
+          "children": []
+        }
+      ]
+    }
+  ],
+  "totals": {
+    "all": {
+      "words": 5079,
+      "chars": 31765,
+      "ideas": 333
+    },
+    "chapters": {
+      "words": 4926,
+      "chars": 30773,
+      "ideas": 313
+    }
+  }
+}
