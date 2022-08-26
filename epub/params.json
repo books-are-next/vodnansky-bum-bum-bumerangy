@@ -1,1 +1,1050 @@
-{}
+{
+  "params": {
+    "metadata": {
+      "languageCode": "cs",
+      "title": "Bum... bum... bumerangy aneb Politická manéž",
+      "identifier": "urn:uuid:296c0919-9963-415a-a386-6c26c077b931",
+      "author": "Jan Vodňanský",
+      "publisher": "Městská knihovna v Praze",
+      "modified": "2022-03-17T00:00:00.000Z",
+      "edition": "drama",
+      "publisherShort": "mkp",
+      "contentType": "drama"
+    },
+    "elements": {
+      "title": "MLP.uroven1.*\nMLP.uroven2.kapitola\nMLP.uroven2.basne\nMLP.uroven2.kapitola.dopis\nMLP.uroven2.kapitola.upraven\ne.booknadpis2\ne.booknadpis2bezodstrnkovn\ne.booknadpis2probasne\ne.bookobsah\nheading.id.2\nmlpuroven1.*\nmlpuroven2.*\nMLP.UROVEN2.BASNE.II\nMLP.UROVEN2.KAPITOLA\nMLP.UROVEN2.PARAL\nMLP.uroven1.PARAL",
+      "subtitle": "",
+      "h2": "MLP.uroven3.nadpis.*\nMLP.UROVEN3.*\ne.booknadpis3bezodstrankovani\ne.booknadpis3probasne\nmlpuroven3.*",
+      "h3": "MLP.uroven4.nadpis\ne.booknadpis3bezodstrankovani\ne.booknadpis3probasnebezodstrankovani",
+      "h4": "MLP.uroven5.nadpis",
+      "hr": "MLP.hvezdicky\ne.bookhvezdickystred",
+      "hrBefore": "",
+      "hrAfter": "",
+      "br": "",
+      "brBefore": ".+12.0\n.+12.12\n.+12.0.\n.+12.12.\ne.bookversebezpredsazeni.*pred.*\ne.bookodsazeniodstavce.*pred.*",
+      "brAfter": ".+0.12\n.+12.12\n.+0.12.\n.+12.12.\ne.bookversebezpredsazeni.*za.*\ne.bookodsazeniodstavce.*za.*",
+      "blockquote": "MLP_prima_rec",
+      "figure": "MLP.obrazky.*\nmlpobrazky",
+      "centered": ".*uprostred.*",
+      "verse": "MLP.verse.*",
+      "em": "MLP_znak_kurziva_11b",
+      "strong": "MLP_tiraz_autor_a_nazev\nMLP_licence_paragraf\nMLP_znak_tucne_11b\nCharOverride-3",
+      "remove": "",
+      "ignore": ""
+    },
+    "structure": [
+      {
+        "isSection": true,
+        "id": "section-1",
+        "listType": "plain",
+        "children": [
+          {
+            "filename": "bum_bum_bumerangy_001.md",
+            "xhtml": "bum_bum_bumerangy_001.xhtml",
+            "id": 0,
+            "role": "cover",
+            "listType": "plain",
+            "inToc": false,
+            "hungry": false,
+            "devoured": false,
+            "hiddenTitle": false,
+            "children": []
+          },
+          {
+            "filename": "bum_bum_bumerangy_002.md",
+            "xhtml": "bum_bum_bumerangy_002.xhtml",
+            "id": 1,
+            "role": "promo",
+            "listType": "plain",
+            "inToc": false,
+            "hungry": false,
+            "devoured": false,
+            "hiddenTitle": false,
+            "children": []
+          },
+          {
+            "filename": "bum_bum_bumerangy_003.md",
+            "xhtml": "bum_bum_bumerangy_003.xhtml",
+            "id": 2,
+            "role": "about",
+            "listType": "plain",
+            "inToc": false,
+            "hungry": false,
+            "devoured": false,
+            "hiddenTitle": false,
+            "children": []
+          },
+          {
+            "filename": "bum_bum_bumerangy_004.md",
+            "xhtml": "bum_bum_bumerangy_004.xhtml",
+            "id": 3,
+            "role": "about",
+            "listType": "plain",
+            "inToc": false,
+            "hungry": false,
+            "devoured": false,
+            "hiddenTitle": false,
+            "children": []
+          },
+          {
+            "filename": "bum_bum_bumerangy_005.md",
+            "xhtml": "bum_bum_bumerangy_005.xhtml",
+            "id": 4,
+            "role": "chapter",
+            "listType": "plain",
+            "inToc": true,
+            "hungry": true,
+            "devoured": false,
+            "hiddenTitle": true,
+            "children": [],
+            "title": "Bum... bum... bumerangy aneb Politická manéž"
+          },
+          {
+            "filename": "bum_bum_bumerangy_006.md",
+            "xhtml": "bum_bum_bumerangy_006.xhtml",
+            "id": 5,
+            "role": "chapter",
+            "listType": "plain",
+            "inToc": true,
+            "hungry": false,
+            "devoured": true,
+            "hiddenTitle": false,
+            "children": []
+          },
+          {
+            "filename": "bum_bum_bumerangy_007.md",
+            "xhtml": "bum_bum_bumerangy_007.xhtml",
+            "id": 6,
+            "role": "chapter",
+            "listType": "plain",
+            "inToc": true,
+            "hungry": false,
+            "devoured": true,
+            "hiddenTitle": false,
+            "children": []
+          },
+          {
+            "filename": "bum_bum_bumerangy_008.md",
+            "xhtml": "bum_bum_bumerangy_008.xhtml",
+            "id": 7,
+            "role": "chapter",
+            "listType": "plain",
+            "inToc": true,
+            "hungry": false,
+            "devoured": true,
+            "hiddenTitle": false,
+            "children": []
+          },
+          {
+            "filename": "bum_bum_bumerangy_009.md",
+            "xhtml": "bum_bum_bumerangy_009.xhtml",
+            "id": 8,
+            "role": "chapter",
+            "listType": "plain",
+            "inToc": true,
+            "hungry": false,
+            "devoured": true,
+            "hiddenTitle": false,
+            "children": []
+          },
+          {
+            "filename": "bum_bum_bumerangy_010.md",
+            "xhtml": "bum_bum_bumerangy_010.xhtml",
+            "id": 9,
+            "role": "chapter",
+            "listType": "plain",
+            "inToc": true,
+            "hungry": false,
+            "devoured": true,
+            "hiddenTitle": false,
+            "children": []
+          },
+          {
+            "filename": "bum_bum_bumerangy_011.md",
+            "xhtml": "bum_bum_bumerangy_011.xhtml",
+            "id": 10,
+            "role": "chapter",
+            "listType": "plain",
+            "inToc": true,
+            "hungry": false,
+            "devoured": true,
+            "hiddenTitle": false,
+            "children": []
+          },
+          {
+            "filename": "bum_bum_bumerangy_012.md",
+            "xhtml": "bum_bum_bumerangy_012.xhtml",
+            "id": 11,
+            "role": "chapter",
+            "listType": "plain",
+            "inToc": true,
+            "hungry": false,
+            "devoured": true,
+            "hiddenTitle": false,
+            "children": []
+          },
+          {
+            "filename": "bum_bum_bumerangy_013.md",
+            "xhtml": "bum_bum_bumerangy_013.xhtml",
+            "id": 12,
+            "role": "chapter",
+            "listType": "plain",
+            "inToc": true,
+            "hungry": false,
+            "devoured": true,
+            "hiddenTitle": false,
+            "children": []
+          },
+          {
+            "filename": "bum_bum_bumerangy_014.md",
+            "xhtml": "bum_bum_bumerangy_014.xhtml",
+            "id": 13,
+            "role": "chapter",
+            "listType": "plain",
+            "inToc": true,
+            "hungry": false,
+            "devoured": true,
+            "hiddenTitle": false,
+            "children": []
+          },
+          {
+            "filename": "bum_bum_bumerangy_015.md",
+            "xhtml": "bum_bum_bumerangy_015.xhtml",
+            "id": 14,
+            "role": "chapter",
+            "listType": "plain",
+            "inToc": true,
+            "hungry": false,
+            "devoured": true,
+            "hiddenTitle": false,
+            "children": []
+          },
+          {
+            "filename": "bum_bum_bumerangy_016.md",
+            "xhtml": "bum_bum_bumerangy_016.xhtml",
+            "id": 15,
+            "role": "chapter",
+            "listType": "plain",
+            "inToc": true,
+            "hungry": false,
+            "devoured": true,
+            "hiddenTitle": false,
+            "children": []
+          },
+          {
+            "filename": "bum_bum_bumerangy_017.md",
+            "xhtml": "bum_bum_bumerangy_017.xhtml",
+            "id": 16,
+            "role": "chapter",
+            "listType": "plain",
+            "inToc": true,
+            "hungry": false,
+            "devoured": true,
+            "hiddenTitle": false,
+            "children": []
+          },
+          {
+            "filename": "bum_bum_bumerangy_018.md",
+            "xhtml": "bum_bum_bumerangy_018.xhtml",
+            "id": 17,
+            "role": "chapter",
+            "listType": "plain",
+            "inToc": true,
+            "hungry": false,
+            "devoured": true,
+            "hiddenTitle": false,
+            "children": []
+          },
+          {
+            "filename": "bum_bum_bumerangy_019.md",
+            "xhtml": "bum_bum_bumerangy_019.xhtml",
+            "id": 18,
+            "role": "chapter",
+            "listType": "plain",
+            "inToc": true,
+            "hungry": false,
+            "devoured": true,
+            "hiddenTitle": false,
+            "children": []
+          },
+          {
+            "filename": "bum_bum_bumerangy_020.md",
+            "xhtml": "bum_bum_bumerangy_020.xhtml",
+            "id": 19,
+            "role": "chapter",
+            "listType": "plain",
+            "inToc": true,
+            "hungry": false,
+            "devoured": true,
+            "hiddenTitle": false,
+            "children": []
+          },
+          {
+            "filename": "bum_bum_bumerangy_021.md",
+            "xhtml": "bum_bum_bumerangy_021.xhtml",
+            "id": 20,
+            "role": "chapter",
+            "listType": "plain",
+            "inToc": true,
+            "hungry": false,
+            "devoured": true,
+            "hiddenTitle": false,
+            "children": []
+          },
+          {
+            "filename": "bum_bum_bumerangy_022.md",
+            "xhtml": "bum_bum_bumerangy_022.xhtml",
+            "id": 21,
+            "role": "chapter",
+            "listType": "plain",
+            "inToc": true,
+            "hungry": false,
+            "devoured": true,
+            "hiddenTitle": false,
+            "children": []
+          },
+          {
+            "filename": "bum_bum_bumerangy_023.md",
+            "xhtml": "bum_bum_bumerangy_023.xhtml",
+            "id": 22,
+            "role": "chapter",
+            "listType": "plain",
+            "inToc": true,
+            "hungry": false,
+            "devoured": true,
+            "hiddenTitle": false,
+            "children": []
+          },
+          {
+            "filename": "bum_bum_bumerangy_024.md",
+            "xhtml": "bum_bum_bumerangy_024.xhtml",
+            "id": 23,
+            "role": "chapter",
+            "listType": "plain",
+            "inToc": true,
+            "hungry": false,
+            "devoured": true,
+            "hiddenTitle": false,
+            "children": []
+          },
+          {
+            "filename": "bum_bum_bumerangy_025.md",
+            "xhtml": "bum_bum_bumerangy_025.xhtml",
+            "id": 24,
+            "role": "chapter",
+            "listType": "plain",
+            "inToc": true,
+            "hungry": false,
+            "devoured": true,
+            "hiddenTitle": false,
+            "children": []
+          },
+          {
+            "filename": "bum_bum_bumerangy_026.md",
+            "xhtml": "bum_bum_bumerangy_026.xhtml",
+            "id": 25,
+            "role": "chapter",
+            "listType": "plain",
+            "inToc": true,
+            "hungry": false,
+            "devoured": true,
+            "hiddenTitle": false,
+            "children": []
+          },
+          {
+            "filename": "bum_bum_bumerangy_027.md",
+            "xhtml": "bum_bum_bumerangy_027.xhtml",
+            "id": 26,
+            "role": "chapter",
+            "listType": "plain",
+            "inToc": true,
+            "hungry": false,
+            "devoured": true,
+            "hiddenTitle": false,
+            "children": []
+          },
+          {
+            "filename": "bum_bum_bumerangy_028.md",
+            "xhtml": "bum_bum_bumerangy_028.xhtml",
+            "id": 27,
+            "role": "chapter",
+            "listType": "plain",
+            "inToc": true,
+            "hungry": false,
+            "devoured": true,
+            "hiddenTitle": false,
+            "children": []
+          },
+          {
+            "filename": "bum_bum_bumerangy_029.md",
+            "xhtml": "bum_bum_bumerangy_029.xhtml",
+            "id": 28,
+            "role": "chapter",
+            "listType": "plain",
+            "inToc": true,
+            "hungry": false,
+            "devoured": true,
+            "hiddenTitle": false,
+            "children": []
+          },
+          {
+            "filename": "bum_bum_bumerangy_030.md",
+            "xhtml": "bum_bum_bumerangy_030.xhtml",
+            "id": 29,
+            "role": "chapter",
+            "listType": "plain",
+            "inToc": true,
+            "hungry": false,
+            "devoured": true,
+            "hiddenTitle": false,
+            "children": []
+          },
+          {
+            "filename": "bum_bum_bumerangy_031.md",
+            "xhtml": "bum_bum_bumerangy_031.xhtml",
+            "id": 30,
+            "role": "chapter",
+            "listType": "plain",
+            "inToc": true,
+            "hungry": false,
+            "devoured": true,
+            "hiddenTitle": false,
+            "children": []
+          },
+          {
+            "filename": "bum_bum_bumerangy_032.md",
+            "xhtml": "bum_bum_bumerangy_032.xhtml",
+            "id": 31,
+            "role": "chapter",
+            "listType": "plain",
+            "inToc": true,
+            "hungry": false,
+            "devoured": true,
+            "hiddenTitle": false,
+            "children": []
+          },
+          {
+            "filename": "bum_bum_bumerangy_033.md",
+            "xhtml": "bum_bum_bumerangy_033.xhtml",
+            "id": 32,
+            "role": "chapter",
+            "listType": "plain",
+            "inToc": true,
+            "hungry": false,
+            "devoured": true,
+            "hiddenTitle": false,
+            "children": []
+          },
+          {
+            "filename": "bum_bum_bumerangy_034.md",
+            "xhtml": "bum_bum_bumerangy_034.xhtml",
+            "id": 33,
+            "role": "chapter",
+            "listType": "plain",
+            "inToc": true,
+            "hungry": false,
+            "devoured": true,
+            "hiddenTitle": false,
+            "children": []
+          },
+          {
+            "filename": "bum_bum_bumerangy_035.md",
+            "xhtml": "bum_bum_bumerangy_035.xhtml",
+            "id": 34,
+            "role": "chapter",
+            "listType": "plain",
+            "inToc": true,
+            "hungry": false,
+            "devoured": true,
+            "hiddenTitle": false,
+            "children": []
+          },
+          {
+            "filename": "bum_bum_bumerangy_036.md",
+            "xhtml": "bum_bum_bumerangy_036.xhtml",
+            "id": 35,
+            "role": "chapter",
+            "listType": "plain",
+            "inToc": true,
+            "hungry": false,
+            "devoured": true,
+            "hiddenTitle": false,
+            "children": []
+          },
+          {
+            "filename": "bum_bum_bumerangy_037.md",
+            "xhtml": "bum_bum_bumerangy_037.xhtml",
+            "id": 36,
+            "role": "chapter",
+            "listType": "plain",
+            "inToc": true,
+            "hungry": false,
+            "devoured": true,
+            "hiddenTitle": false,
+            "children": []
+          },
+          {
+            "filename": "bum_bum_bumerangy_038.md",
+            "xhtml": "bum_bum_bumerangy_038.xhtml",
+            "id": 37,
+            "role": "chapter",
+            "listType": "plain",
+            "inToc": true,
+            "hungry": false,
+            "devoured": true,
+            "hiddenTitle": false,
+            "children": []
+          },
+          {
+            "filename": "bum_bum_bumerangy_039.md",
+            "xhtml": "bum_bum_bumerangy_039.xhtml",
+            "id": 38,
+            "role": "chapter",
+            "listType": "plain",
+            "inToc": true,
+            "hungry": false,
+            "devoured": true,
+            "hiddenTitle": false,
+            "children": []
+          },
+          {
+            "filename": "bum_bum_bumerangy_040.md",
+            "xhtml": "bum_bum_bumerangy_040.xhtml",
+            "id": 39,
+            "role": "chapter",
+            "listType": "plain",
+            "inToc": true,
+            "hungry": false,
+            "devoured": true,
+            "hiddenTitle": false,
+            "children": []
+          },
+          {
+            "filename": "bum_bum_bumerangy_041.md",
+            "xhtml": "bum_bum_bumerangy_041.xhtml",
+            "id": 40,
+            "role": "chapter",
+            "listType": "plain",
+            "inToc": true,
+            "hungry": false,
+            "devoured": true,
+            "hiddenTitle": false,
+            "children": []
+          },
+          {
+            "filename": "bum_bum_bumerangy_042.md",
+            "xhtml": "bum_bum_bumerangy_042.xhtml",
+            "id": 41,
+            "role": "chapter",
+            "listType": "plain",
+            "inToc": true,
+            "hungry": false,
+            "devoured": true,
+            "hiddenTitle": false,
+            "children": []
+          },
+          {
+            "filename": "bum_bum_bumerangy_043.md",
+            "xhtml": "bum_bum_bumerangy_043.xhtml",
+            "id": 42,
+            "role": "chapter",
+            "listType": "plain",
+            "inToc": true,
+            "hungry": false,
+            "devoured": true,
+            "hiddenTitle": false,
+            "children": []
+          },
+          {
+            "filename": "bum_bum_bumerangy_044.md",
+            "xhtml": "bum_bum_bumerangy_044.xhtml",
+            "id": 43,
+            "role": "chapter",
+            "listType": "plain",
+            "inToc": true,
+            "hungry": false,
+            "devoured": true,
+            "hiddenTitle": false,
+            "children": []
+          },
+          {
+            "filename": "bum_bum_bumerangy_045.md",
+            "xhtml": "bum_bum_bumerangy_045.xhtml",
+            "id": 44,
+            "role": "chapter",
+            "listType": "plain",
+            "inToc": true,
+            "hungry": false,
+            "devoured": true,
+            "hiddenTitle": false,
+            "children": []
+          },
+          {
+            "filename": "bum_bum_bumerangy_046.md",
+            "xhtml": "bum_bum_bumerangy_046.xhtml",
+            "id": 45,
+            "role": "chapter",
+            "listType": "plain",
+            "inToc": true,
+            "hungry": false,
+            "devoured": true,
+            "hiddenTitle": false,
+            "children": []
+          },
+          {
+            "filename": "bum_bum_bumerangy_047.md",
+            "xhtml": "bum_bum_bumerangy_047.xhtml",
+            "id": 46,
+            "role": "chapter",
+            "listType": "plain",
+            "inToc": true,
+            "hungry": false,
+            "devoured": true,
+            "hiddenTitle": false,
+            "children": []
+          },
+          {
+            "filename": "bum_bum_bumerangy_048.md",
+            "xhtml": "bum_bum_bumerangy_048.xhtml",
+            "id": 47,
+            "role": "chapter",
+            "listType": "plain",
+            "inToc": true,
+            "hungry": false,
+            "devoured": true,
+            "hiddenTitle": false,
+            "children": []
+          },
+          {
+            "filename": "bum_bum_bumerangy_049.md",
+            "xhtml": "bum_bum_bumerangy_049.xhtml",
+            "id": 48,
+            "role": "chapter",
+            "listType": "plain",
+            "inToc": true,
+            "hungry": false,
+            "devoured": true,
+            "hiddenTitle": false,
+            "children": []
+          },
+          {
+            "filename": "bum_bum_bumerangy_050.md",
+            "xhtml": "bum_bum_bumerangy_050.xhtml",
+            "id": 49,
+            "role": "chapter",
+            "listType": "plain",
+            "inToc": true,
+            "hungry": true,
+            "devoured": false,
+            "hiddenTitle": false,
+            "children": [],
+            "title": "Závěrečný test pro spanilé čtenářky a pozorné čtenáře"
+          },
+          {
+            "filename": "bum_bum_bumerangy_051.md",
+            "xhtml": "bum_bum_bumerangy_051.xhtml",
+            "id": 50,
+            "role": "about",
+            "listType": "plain",
+            "inToc": false,
+            "hungry": true,
+            "devoured": false,
+            "hiddenTitle": false,
+            "children": []
+          }
+        ],
+        "devoured": false
+      }
+    ],
+    "replacements": []
+  },
+  "epub": {
+    "metadata": {
+      "title": "Bum... bum... bumerangy aneb Politická manéž",
+      "identifier": "urn:uuid:296c0919-9963-415a-a386-6c26c077b931",
+      "author": "Jan Vodňanský",
+      "publisher": "Městská knihovna v Praze",
+      "modified": "2022-03-17T00:00:00.000Z"
+    },
+    "chapters": [
+      {
+        "titleSuggest": "",
+        "subtitleSuggest": "",
+        "filename": "bum_bum_bumerangy_001.md",
+        "xhtml": "bum_bum_bumerangy_001.xhtml"
+      },
+      {
+        "titleSuggest": "",
+        "subtitleSuggest": "",
+        "filename": "bum_bum_bumerangy_002.md",
+        "xhtml": "bum_bum_bumerangy_002.xhtml"
+      },
+      {
+        "titleSuggest": "",
+        "subtitleSuggest": "",
+        "filename": "bum_bum_bumerangy_003.md",
+        "xhtml": "bum_bum_bumerangy_003.xhtml"
+      },
+      {
+        "titleSuggest": "",
+        "subtitleSuggest": "",
+        "filename": "bum_bum_bumerangy_004.md",
+        "xhtml": "bum_bum_bumerangy_004.xhtml"
+      },
+      {
+        "titleSuggest": "",
+        "subtitleSuggest": "",
+        "filename": "bum_bum_bumerangy_005.md",
+        "xhtml": "bum_bum_bumerangy_005.xhtml"
+      },
+      {
+        "titleSuggest": "",
+        "subtitleSuggest": "",
+        "filename": "bum_bum_bumerangy_006.md",
+        "xhtml": "bum_bum_bumerangy_006.xhtml"
+      },
+      {
+        "titleSuggest": "",
+        "subtitleSuggest": "",
+        "filename": "bum_bum_bumerangy_007.md",
+        "xhtml": "bum_bum_bumerangy_007.xhtml"
+      },
+      {
+        "titleSuggest": "",
+        "subtitleSuggest": "",
+        "filename": "bum_bum_bumerangy_008.md",
+        "xhtml": "bum_bum_bumerangy_008.xhtml"
+      },
+      {
+        "titleSuggest": "",
+        "subtitleSuggest": "",
+        "filename": "bum_bum_bumerangy_009.md",
+        "xhtml": "bum_bum_bumerangy_009.xhtml"
+      },
+      {
+        "titleSuggest": "",
+        "subtitleSuggest": "",
+        "filename": "bum_bum_bumerangy_010.md",
+        "xhtml": "bum_bum_bumerangy_010.xhtml"
+      },
+      {
+        "titleSuggest": "",
+        "subtitleSuggest": "",
+        "filename": "bum_bum_bumerangy_011.md",
+        "xhtml": "bum_bum_bumerangy_011.xhtml"
+      },
+      {
+        "titleSuggest": "",
+        "subtitleSuggest": "",
+        "filename": "bum_bum_bumerangy_012.md",
+        "xhtml": "bum_bum_bumerangy_012.xhtml"
+      },
+      {
+        "titleSuggest": "",
+        "subtitleSuggest": "",
+        "filename": "bum_bum_bumerangy_013.md",
+        "xhtml": "bum_bum_bumerangy_013.xhtml"
+      },
+      {
+        "titleSuggest": "",
+        "subtitleSuggest": "",
+        "filename": "bum_bum_bumerangy_014.md",
+        "xhtml": "bum_bum_bumerangy_014.xhtml"
+      },
+      {
+        "titleSuggest": "",
+        "subtitleSuggest": "",
+        "filename": "bum_bum_bumerangy_015.md",
+        "xhtml": "bum_bum_bumerangy_015.xhtml"
+      },
+      {
+        "titleSuggest": "",
+        "subtitleSuggest": "",
+        "filename": "bum_bum_bumerangy_016.md",
+        "xhtml": "bum_bum_bumerangy_016.xhtml"
+      },
+      {
+        "titleSuggest": "",
+        "subtitleSuggest": "",
+        "filename": "bum_bum_bumerangy_017.md",
+        "xhtml": "bum_bum_bumerangy_017.xhtml"
+      },
+      {
+        "titleSuggest": "",
+        "subtitleSuggest": "",
+        "filename": "bum_bum_bumerangy_018.md",
+        "xhtml": "bum_bum_bumerangy_018.xhtml"
+      },
+      {
+        "titleSuggest": "",
+        "subtitleSuggest": "",
+        "filename": "bum_bum_bumerangy_019.md",
+        "xhtml": "bum_bum_bumerangy_019.xhtml"
+      },
+      {
+        "titleSuggest": "",
+        "subtitleSuggest": "",
+        "filename": "bum_bum_bumerangy_020.md",
+        "xhtml": "bum_bum_bumerangy_020.xhtml"
+      },
+      {
+        "titleSuggest": "",
+        "subtitleSuggest": "",
+        "filename": "bum_bum_bumerangy_021.md",
+        "xhtml": "bum_bum_bumerangy_021.xhtml"
+      },
+      {
+        "titleSuggest": "",
+        "subtitleSuggest": "",
+        "filename": "bum_bum_bumerangy_022.md",
+        "xhtml": "bum_bum_bumerangy_022.xhtml"
+      },
+      {
+        "titleSuggest": "",
+        "subtitleSuggest": "",
+        "filename": "bum_bum_bumerangy_023.md",
+        "xhtml": "bum_bum_bumerangy_023.xhtml"
+      },
+      {
+        "titleSuggest": "",
+        "subtitleSuggest": "",
+        "filename": "bum_bum_bumerangy_024.md",
+        "xhtml": "bum_bum_bumerangy_024.xhtml"
+      },
+      {
+        "titleSuggest": "",
+        "subtitleSuggest": "",
+        "filename": "bum_bum_bumerangy_025.md",
+        "xhtml": "bum_bum_bumerangy_025.xhtml"
+      },
+      {
+        "titleSuggest": "",
+        "subtitleSuggest": "",
+        "filename": "bum_bum_bumerangy_026.md",
+        "xhtml": "bum_bum_bumerangy_026.xhtml"
+      },
+      {
+        "titleSuggest": "",
+        "subtitleSuggest": "",
+        "filename": "bum_bum_bumerangy_027.md",
+        "xhtml": "bum_bum_bumerangy_027.xhtml"
+      },
+      {
+        "titleSuggest": "",
+        "subtitleSuggest": "",
+        "filename": "bum_bum_bumerangy_028.md",
+        "xhtml": "bum_bum_bumerangy_028.xhtml"
+      },
+      {
+        "titleSuggest": "",
+        "subtitleSuggest": "",
+        "filename": "bum_bum_bumerangy_029.md",
+        "xhtml": "bum_bum_bumerangy_029.xhtml"
+      },
+      {
+        "titleSuggest": "",
+        "subtitleSuggest": "",
+        "filename": "bum_bum_bumerangy_030.md",
+        "xhtml": "bum_bum_bumerangy_030.xhtml"
+      },
+      {
+        "titleSuggest": "",
+        "subtitleSuggest": "",
+        "filename": "bum_bum_bumerangy_031.md",
+        "xhtml": "bum_bum_bumerangy_031.xhtml"
+      },
+      {
+        "titleSuggest": "",
+        "subtitleSuggest": "",
+        "filename": "bum_bum_bumerangy_032.md",
+        "xhtml": "bum_bum_bumerangy_032.xhtml"
+      },
+      {
+        "titleSuggest": "",
+        "subtitleSuggest": "",
+        "filename": "bum_bum_bumerangy_033.md",
+        "xhtml": "bum_bum_bumerangy_033.xhtml"
+      },
+      {
+        "titleSuggest": "",
+        "subtitleSuggest": "",
+        "filename": "bum_bum_bumerangy_034.md",
+        "xhtml": "bum_bum_bumerangy_034.xhtml"
+      },
+      {
+        "titleSuggest": "",
+        "subtitleSuggest": "",
+        "filename": "bum_bum_bumerangy_035.md",
+        "xhtml": "bum_bum_bumerangy_035.xhtml"
+      },
+      {
+        "titleSuggest": "",
+        "subtitleSuggest": "",
+        "filename": "bum_bum_bumerangy_036.md",
+        "xhtml": "bum_bum_bumerangy_036.xhtml"
+      },
+      {
+        "titleSuggest": "",
+        "subtitleSuggest": "",
+        "filename": "bum_bum_bumerangy_037.md",
+        "xhtml": "bum_bum_bumerangy_037.xhtml"
+      },
+      {
+        "titleSuggest": "",
+        "subtitleSuggest": "",
+        "filename": "bum_bum_bumerangy_038.md",
+        "xhtml": "bum_bum_bumerangy_038.xhtml"
+      },
+      {
+        "titleSuggest": "",
+        "subtitleSuggest": "",
+        "filename": "bum_bum_bumerangy_039.md",
+        "xhtml": "bum_bum_bumerangy_039.xhtml"
+      },
+      {
+        "titleSuggest": "",
+        "subtitleSuggest": "",
+        "filename": "bum_bum_bumerangy_040.md",
+        "xhtml": "bum_bum_bumerangy_040.xhtml"
+      },
+      {
+        "titleSuggest": "",
+        "subtitleSuggest": "",
+        "filename": "bum_bum_bumerangy_041.md",
+        "xhtml": "bum_bum_bumerangy_041.xhtml"
+      },
+      {
+        "titleSuggest": "",
+        "subtitleSuggest": "",
+        "filename": "bum_bum_bumerangy_042.md",
+        "xhtml": "bum_bum_bumerangy_042.xhtml"
+      },
+      {
+        "titleSuggest": "",
+        "subtitleSuggest": "",
+        "filename": "bum_bum_bumerangy_043.md",
+        "xhtml": "bum_bum_bumerangy_043.xhtml"
+      },
+      {
+        "titleSuggest": "",
+        "subtitleSuggest": "",
+        "filename": "bum_bum_bumerangy_044.md",
+        "xhtml": "bum_bum_bumerangy_044.xhtml"
+      },
+      {
+        "titleSuggest": "",
+        "subtitleSuggest": "",
+        "filename": "bum_bum_bumerangy_045.md",
+        "xhtml": "bum_bum_bumerangy_045.xhtml"
+      },
+      {
+        "titleSuggest": "",
+        "subtitleSuggest": "",
+        "filename": "bum_bum_bumerangy_046.md",
+        "xhtml": "bum_bum_bumerangy_046.xhtml"
+      },
+      {
+        "titleSuggest": "",
+        "subtitleSuggest": "",
+        "filename": "bum_bum_bumerangy_047.md",
+        "xhtml": "bum_bum_bumerangy_047.xhtml"
+      },
+      {
+        "titleSuggest": "",
+        "subtitleSuggest": "",
+        "filename": "bum_bum_bumerangy_048.md",
+        "xhtml": "bum_bum_bumerangy_048.xhtml"
+      },
+      {
+        "titleSuggest": "",
+        "subtitleSuggest": "",
+        "filename": "bum_bum_bumerangy_049.md",
+        "xhtml": "bum_bum_bumerangy_049.xhtml"
+      },
+      {
+        "titleSuggest": "Závěrečný test pro spanilé čtenářky a pozorné čtenáře",
+        "subtitleSuggest": "",
+        "filename": "bum_bum_bumerangy_050.md",
+        "xhtml": "bum_bum_bumerangy_050.xhtml"
+      },
+      {
+        "titleSuggest": "",
+        "subtitleSuggest": "",
+        "filename": "bum_bum_bumerangy_051.md",
+        "xhtml": "bum_bum_bumerangy_051.xhtml"
+      }
+    ],
+    "resources": [
+      {
+        "type": "application/x-dtbncx+xml",
+        "href": "OEBPS/toc.ncx"
+      },
+      {
+        "type": "text/css",
+        "href": "OEBPS/Styles/idGeneratedStyles.css"
+      },
+      {
+        "type": "image/jpeg",
+        "href": "OEBPS/Images/image001.jpg"
+      },
+      {
+        "type": "image/jpeg",
+        "href": "OEBPS/Images/image002.jpg"
+      },
+      {
+        "type": "image/jpeg",
+        "href": "OEBPS/Images/obalka_bum_bum_bumerangy.jpg"
+      },
+      {
+        "type": "image/jpeg",
+        "href": "OEBPS/Images/upoutavka_eknihy.jpg"
+      }
+    ],
+    "classes": [
+      "Bez-stylu-tabulky",
+      "CellOverride-1",
+      "CharOverride-1",
+      "CharOverride-2",
+      "CharOverride-3",
+      "Hyperlink",
+      "MLP_citacni_str_rozdeleni",
+      "MLP_licence_hypertext",
+      "MLP_licence_obrazek",
+      "MLP_licence_paragraf",
+      "MLP_licence_text",
+      "MLP_obrazky",
+      "MLP_prima_rec",
+      "MLP_seznam_-0-0-",
+      "MLP_seznam_-0-6-",
+      "MLP_text_bez1radku",
+      "MLP_text_bez1radku_-0-12-",
+      "MLP_text_bez1radku_-12-0-",
+      "MLP_text_uprostred",
+      "MLP_tiraz_autor_a_nazev",
+      "MLP_titulka_autor",
+      "MLP_titulka_nazev",
+      "MLP_uroven2_kapitola",
+      "MLP_verse_-0-0--",
+      "MLP_verse_-0-12-",
+      "MLP_verse_-12-12-",
+      "MLP_znak_kurziva_11b",
+      "MLP_znak_tucne_11b",
+      "Normal",
+      "ParaOverride-1",
+      "ParaOverride-2",
+      "TableOverride-1",
+      "Z-kladn--textový-r-meček",
+      "_idGenCharOverride-1",
+      "_idGenObjectAttribute-1",
+      "_idGenObjectAttribute-2",
+      "_idGenObjectLayout-1",
+      "_idGenObjectStyleOverride-1",
+      "_idGenParaOverride-1"
+    ],
+    "github": {
+      "user": "books-are-next",
+      "repo": "vodnansky-bum-bum-bumerangy"
+    },
+    "generatedAt": 1661317105160
+  }
+}
