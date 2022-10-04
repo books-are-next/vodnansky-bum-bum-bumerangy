@@ -8,8 +8,8 @@
   "edition": "drama",
   "languageCode": "cs",
   "root": "main",
-  "identifier": "vodnansky-bum-bum-bumerangy-aneb-politicka-manez-dbef7d4",
-  "revision": "dbef7d4",
+  "identifier": "vodnansky-bum-bum-bumerangy-aneb-politicka-manez-504e528",
+  "revision": "504e528",
   "readingOrder": [
     "promo.html",
     "bum_bum_bumerangy_005.html",
@@ -17,8 +17,8 @@
     "about.html"
   ],
   "generatedAt": {
-    "date": "Tue Oct 04 2022 18:51:49 GMT+0000 (Coordinated Universal Time)",
-    "unix": 1664909509235
+    "date": "Tue Oct 04 2022 23:08:14 GMT+0000 (Coordinated Universal Time)",
+    "unix": 1664924894872
   },
   "documents": [
     {
