@@ -8,8 +8,8 @@
   "edition": "drama",
   "languageCode": "cs",
   "root": "main",
-  "identifier": "vodnansky-bum-bum-bumerangy-aneb-politicka-manez-066bc31",
-  "revision": "066bc31",
+  "identifier": "vodnansky-bum-bum-bumerangy-aneb-politicka-manez-0478519",
+  "revision": "0478519",
   "readingOrder": [
     "promo.html",
     "bum_bum_bumerangy_005.html",
@@ -17,8 +17,8 @@
     "about.html"
   ],
   "generatedAt": {
-    "date": "Sat Oct 01 2022 16:08:00 GMT+0000 (Coordinated Universal Time)",
-    "unix": 1664640480368
+    "date": "Tue Oct 04 2022 16:55:52 GMT+0000 (Coordinated Universal Time)",
+    "unix": 1664902552354
   },
   "documents": [
     {
@@ -76,9 +76,9 @@
     {
       "title": "Tiráž",
       "file": "about.html",
-      "words": 143,
+      "words": 141,
       "chars": 927,
-      "ideas": 16,
+      "ideas": 14,
       "role": "about",
       "order": null,
       "prev": "bum_bum_bumerangy_050.html",
@@ -96,9 +96,9 @@
   ],
   "totals": {
     "all": {
-      "words": 5079,
+      "words": 5077,
       "chars": 31765,
-      "ideas": 333
+      "ideas": 331
     },
     "chapters": {
       "words": 4926,
